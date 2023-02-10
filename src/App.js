@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <div className="container">
           <div className="row">
+          <h3>Country App Made By: Talha Jubair</h3>
             <Countries></Countries>
             <Country></Country>
           </div>

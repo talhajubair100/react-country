@@ -4,13 +4,14 @@ import React from 'react'
 const Country = (props) => {
   return (
     <div>
-    <h4>Country Name: {props.name}</h4>
-        <p>Population: {props.population}</p>
-        <p>Area: {props.area}</p>
-
-     <img src={props.flags} alt="" />
+      <h4>Countru Name: {props.country}</h4>
+      <p>Capital : {props.capital}</p>
+      <p>Area : {props.area}</p>
+      <p>Population : {props.population}</p>
+      <img style={{height: '100px'}} src={props.flag} alt=""/>
+   
     </div>
-  )
-}
+  );
+};
 
 export default Country
